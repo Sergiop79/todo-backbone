@@ -1,0 +1,29 @@
+// Opensans
+@include font-face("Opensans", font-files("OpenSans-Regular-webfont.eot", "OpenSans-Regular-webfont.woff", "OpenSans-Regular-webfont.ttf", "OpenSans-Regular-webfont.svg"));
+
+// Airstream
+@include font-face("Airstream", font-files("Airstream-webfont.eot", "Airstream-webfont.woff", "Airstream-webfont.ttf", "Airstream-webfont.svg" ));
+
+// icomoon
+@include font-face("icomoon", font-files("icomoon.eot", "icomoon.woff", "icomoon.ttf", "icomoon.svg"));
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pencil:before {
+	content: "\e600";
+}
+.icon-remove:before {
+	content: "\e601";
+}

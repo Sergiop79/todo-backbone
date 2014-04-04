@@ -1,0 +1,126 @@
+@include global-box-sizing(border-box);
+
+@include establish-baseline();
+
+html {
+	height: 100%;
+}
+
+html, button, input, select, textarea {
+	font-family: $text-font;
+}
+
+body {
+	background-color: $body-bg-color;
+	color: $text-color;
+}
+
+a {
+	@include transition-property(all);
+	@include transition-duration(0.2s);
+	@include transition-timing-function(ease-in);
+
+	@include link-colors($link-color, 
+						 $link-hover-color,
+						 $link-active-color, 
+						 $link-visited-color,
+						 $link-focus-color);
+}
+
+
+p {
+	@include leader(1);
+	@include trailer(1);
+}
+
+// Lists
+ul, ol {
+	@include leader(1);
+	@include trailer(1);
+	padding-left: rhythm(1.5);
+
+	li{
+		@include trailer(0);
+	}
+}
+
+// Headings
+h1, .h1 {
+	@include adjust-font-size-to(32px);
+	@include margin-leader(1,32px);
+	@include margin-trailer(1, 32px);
+	//@include margin-leader(1, 32px);
+	//@include rhythm(1,0,0,1,32px);
+	//margin: 0 auto rhythm(1,32px);
+}
+
+h2, .h2 {
+	@include adjust-font-size-to(24px);
+	@include margin-leader(1,24px);
+	@include margin-trailer(1, 24px);
+}
+
+h3, .h3 {
+	@include adjust-font-size-to(21px);
+	@include margin-leader(1,21px);
+	@include margin-trailer(1, 21px);
+}
+
+h4 .h4 {
+	@include adjust-font-size-to(18px);
+	@include margin-leader(1,18px);
+	@include margin-trailer(1, 18px);
+}
+
+h5, .h5 {
+	@include adjust-font-size-to(16px);
+	@include margin-leader(1,16px);
+	@include margin-trailer(1, 16px);
+}
+
+h6, .h6 {
+	@include adjust-font-size-to(12px);
+	@include margin-leader(1,12px);
+	@include margin-trailer(1, 12px);
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+	font-family: $headings-font;
+}
+
+//Selection
+::-moz-selection {
+    background: $color1;
+    color: #fff;
+    text-shadow: none;
+}
+::selection {
+    background: $color1;
+    color: #fff;
+    text-shadow: none;
+}
+
+hr {
+	@include h-borders(1px,0)
+}
+
+img, video {
+	width: 100%;
+	height: auto;
+}
+
+.center {
+	text-align: center;
+}
+
+.left {
+	text-align:left;
+}
+
+.right {
+	text-align: right;
+}
+
+.relative {
+	position: relative;
+}

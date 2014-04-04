@@ -1,0 +1,91 @@
+/* Fonts *********************************************************/
+
+$helvetica-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$georgia-font: Georgia, serif;
+$opensans-font: "Opensans", Verdana;
+$airstream-font: "Airstream", Verdana;
+
+$font1: $opensans-font;
+$font2: $georgia-font;
+$font3: $airstream-font;
+
+$headings-font: $font1;
+$text-font: $opensans-font;
+
+/* Typography *****************************************************/
+
+$base-font-size: 18px;
+$base-line-height: 24px;
+/*$round-to-nearest-half-line: true;*/
+
+
+/* Colors ********************************************************/
+
+// Graphic art
+$gray-color: lighten(#000, 33.5%);
+$gray-dark-color: lighten(#000, 20%);
+$gray-darker-color: lighten(#000, 13.15%);
+$gray-light-color: lighten(#000, 60%);
+$gray-lighter-color: lighten(#000, 93.5%);
+
+// Social colors
+$facebook-color :rgb(59, 89, 182);
+$twitter-color :rgb(64,153,255);
+$googleplus-color :rgb(221, 75, 57);
+$pinterest-color :rgb(203, 32, 39);
+$skype-color :rgb(18,165,244);
+$spotif-colory :rgb(129,183,26);
+$instagram-color:#4E433C;
+$tumblr-color: #2B4964;
+$vimeo-color: #86B32D;
+$soundcloud-color: #f76600;
+$youtube-color: #FF3333;
+$linkedin-color: #4875B4;
+$flickr-color: #FE0883;
+$foursquare-color: #8FD400;
+$rss-color: #FF6600;
+
+// Brand colors
+// http://apuntesalmargen.com/teoria-color-web.html
+$color1: #327CCB;
+$color2: adjust-hue($color1, 180 + 30);
+$color3: adjust-hue($color1, 180 - 30);
+
+// Web elements
+$body-bg-color: shades($color1, l2);
+$text-color: shades($color1, d3);
+
+// Links
+$link-color: $color1;
+$link-hover-color: darken($link-color, 15%);
+$link-active-color: $link-hover-color;
+$link-visited-color: $link-color;
+$link-focus-color: $link-color;
+
+// Selection
+$selection-color: $color1;
+
+
+/* Grid settings *************************************************************************/
+
+$susy: (
+  columns: 4,
+  gutters: 1/4,
+  math: fluid,
+  output: float,
+  gutter-position: inside,
+  global-box-sizing: border-box,
+  debug: (
+	image: hide,
+  	)
+);
+
+
+
+/* Break point settings ******************************************************************/
+
+$breakpoint-to-ems: true;
+$bp-xs: 480px;
+$bp-sm: 768px;
+$bp-md: 992px;
+$bp-lg: 1200px;

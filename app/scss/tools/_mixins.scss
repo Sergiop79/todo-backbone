@@ -1,0 +1,30 @@
+// Botoiak sortzeko @include btn(kolorea)
+@mixin btn($color, $textcolor: #fff) {
+    @extend .btn;
+    @include filter-gradient($color, darken($color, 10%)); // IE6-8
+    @include background-image(linear-gradient($color, darken($color, 10%)));
+    color: $textcolor;
+    border-color: darken($color, 10%);
+    text-shadow: 0 1px 1px rgba(#000, 0.1);
+
+    &:hover {
+        background: darken($color, 10%);
+        color: #fff;
+    }
+
+    &:active {
+    	color: #fff;
+    }
+    &:visited {
+    	color: #fff;
+    }
+}
+
+//Input placeholder style
+@mixin input-placeholder {
+    &.placeholder { @content; }
+    &:-moz-placeholder { @content; }
+    &::-moz-placeholder { @content; }
+    &:-ms-input-placeholder { @content; }
+    &::-webkit-input-placeholder { @content; } 
+}
