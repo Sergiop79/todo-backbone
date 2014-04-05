@@ -9,13 +9,13 @@
 /* Fonts */
 @font-face {
   font-family: "Opensans";
-  src: url('../fonts/OpenSans-Regular-webfont.eot?1394355016') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.woff?1394355016') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf?1394355016') format('truetype'), url('../fonts/OpenSans-Regular-webfont.svg?1394355016') format('svg'); }
+  src: url('../fonts/OpenSans-Regular-webfont.eot?1396687386') format('embedded-opentype'), url('../fonts/OpenSans-Regular-webfont.woff?1396687386') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf?1396687386') format('truetype'), url('../fonts/OpenSans-Regular-webfont.svg?1396687386') format('svg'); }
 @font-face {
   font-family: "Airstream";
-  src: url('../fonts/Airstream-webfont.eot?1394357302') format('embedded-opentype'), url('../fonts/Airstream-webfont.woff?1394357302') format('woff'), url('../fonts/Airstream-webfont.ttf?1394357302') format('truetype'), url('../fonts/Airstream-webfont.svg?1394357302') format('svg'); }
+  src: url('../fonts/Airstream-webfont.eot?1396687386') format('embedded-opentype'), url('../fonts/Airstream-webfont.woff?1396687386') format('woff'), url('../fonts/Airstream-webfont.ttf?1396687386') format('truetype'), url('../fonts/Airstream-webfont.svg?1396687386') format('svg'); }
 @font-face {
   font-family: "icomoon";
-  src: url('../fonts/icomoon.eot?1396596690') format('embedded-opentype'), url('../fonts/icomoon.woff?1396596690') format('woff'), url('../fonts/icomoon.ttf?1396596690') format('truetype'), url('../fonts/icomoon.svg?1396596690') format('svg'); }
+  src: url('../fonts/icomoon.eot?1396687386') format('embedded-opentype'), url('../fonts/icomoon.woff?1396687386') format('woff'), url('../fonts/icomoon.ttf?1396687386') format('truetype'), url('../fonts/icomoon.svg?1396687386') format('svg'); }
 /* line 10, ../scss/fonts/_fonts.scss */
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'icomoon';
@@ -557,8 +557,8 @@ html, button, input, select, textarea {
 
 /* line 13, ../scss/base/_base.scss */
 body {
-  background-color: #659cd8;
-  color: #193e65; }
+  background-color: #40b9e0;
+  color: #15596e; }
 
 /* line 18, ../scss/base/_base.scss */
 a {
@@ -568,19 +568,19 @@ a {
   transition-duration: 0.2s;
   -webkit-transition-timing-function: ease-in;
   transition-timing-function: ease-in;
-  color: #327ccb; }
+  color: #2bb2dd; }
   /* line 18, ../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/links/_link-colors.scss */
   a:visited {
-    color: #327ccb; }
+    color: #2bb2dd; }
   /* line 21, ../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/links/_link-colors.scss */
   a:focus {
-    color: #327ccb; }
+    color: #2bb2dd; }
   /* line 24, ../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/links/_link-colors.scss */
   a:hover {
-    color: #23578e; }
+    color: #1a81a2; }
   /* line 27, ../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.0.alpha.19/stylesheets/compass/typography/links/_link-colors.scss */
   a:active {
-    color: #23578e; }
+    color: #1a81a2; }
 
 /* line 31, ../scss/base/_base.scss */
 p {
@@ -644,13 +644,13 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* line 92, ../scss/base/_base.scss */
 ::-moz-selection {
-  background: #327ccb;
+  background: #2bb2dd;
   color: #fff;
   text-shadow: none; }
 
 /* line 97, ../scss/base/_base.scss */
 ::selection {
-  background: #327ccb;
+  background: #2bb2dd;
   color: #fff;
   text-shadow: none; }
 
@@ -717,7 +717,7 @@ img, video {
     font-style: italic; }
   /* line 10, ../scss/modules/_todo-input.scss */
   .todoinput:focus {
-    box-shadow: 0px 0px 10px #193e65; }
+    box-shadow: 0px 0px 10px #15596e; }
 
 /* line 16, ../scss/modules/_todo-input.scss */
 .close-icon {

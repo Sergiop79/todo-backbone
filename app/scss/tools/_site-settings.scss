@@ -34,7 +34,7 @@ $twitter-color :rgb(64,153,255);
 $googleplus-color :rgb(221, 75, 57);
 $pinterest-color :rgb(203, 32, 39);
 $skype-color :rgb(18,165,244);
-$spotif-colory :rgb(129,183,26);
+$spotify-color :rgb(129,183,26);
 $instagram-color:#4E433C;
 $tumblr-color: #2B4964;
 $vimeo-color: #86B32D;
@@ -47,12 +47,12 @@ $rss-color: #FF6600;
 
 // Brand colors
 // http://apuntesalmargen.com/teoria-color-web.html
-$color1: #327CCB;
+$color1: #2BB2DD;
 $color2: adjust-hue($color1, 180 + 30);
 $color3: adjust-hue($color1, 180 - 30);
 
 // Web elements
-$body-bg-color: shades($color1, l2);
+$body-bg-color: shades($color1, l1);
 $text-color: shades($color1, d3);
 
 // Links
