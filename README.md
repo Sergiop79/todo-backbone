@@ -8,7 +8,7 @@ Todo list edo Zereginen zerrenda bat erabiltzeko aplikazio sinple bat da hau. Ba
     
     <code>git clone https://github.com/Sergiop79/todo-backbone.git</code>
 
-2. Node.js garapen ingurunea instalatuta edukita komando hauek sartu terminalean, bata bestearen atzetik:
+2. [Node.js](http://nodejs.org) garapen ingurunea instalatuta edukita komando hauek sartu terminalean, bata bestearen atzetik:
 
     <code>npm install</code>
     <code>npm run bundle</code>
